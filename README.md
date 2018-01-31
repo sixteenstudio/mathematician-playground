@@ -8,4 +8,4 @@ Git clone this repo and change directory into it by running `git clone https://g
 
 Run `composer update` to get all the dependencies
 
-Change directory to `experiments` and run `php mathematician.php`
+Change directory using `cd experiments` and run `php mathematics.php`
