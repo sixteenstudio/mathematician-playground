@@ -1,0 +1,14 @@
+{
+    "name": "matthew/playground",
+    "type": "project",
+    "require": {
+        "sixteenstudio/mathematician": "dev-develop"
+    },
+    "license": "]",
+    "authors": [
+        {
+            "name": "Matthew Collison",
+            "email": "matthew@sixteenstudio.com"
+        }
+    ]
+}

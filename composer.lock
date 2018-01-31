@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c682fc4f636df43c01b64bb2f1b7b67f",
+    "packages": [
+        {
+            "name": "sixteenstudio/mathematician",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sixteenstudio/mathematician.git",
+                "reference": "dfb04bf69264c3b694d86703b1298651fb20ff54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sixteenstudio/mathematician/zipball/dfb04bf69264c3b694d86703b1298651fb20ff54",
+                "reference": "dfb04bf69264c3b694d86703b1298651fb20ff54",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers/helpers.php"
+                ],
+                "psr-4": {
+                    "Sixteenstudio\\Mathematician\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Matthew Collison",
+                    "email": "matthew@sixteenstudio.com"
+                }
+            ],
+            "description": "A layer on top of BCMath that deals with fractional calculations",
+            "time": "2018-01-31T10:02:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sixteenstudio/mathematician": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
